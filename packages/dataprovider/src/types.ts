@@ -124,6 +124,7 @@ type RaDataGraphqlOptions = {
   clientOptions?: {
     // FIXME: there are more options though
     uri: string;
+    link?: any;
   };
 
   client?: any;

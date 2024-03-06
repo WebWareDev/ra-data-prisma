@@ -1,6 +1,6 @@
 {
-  "name": "@ra-data-prisma/dataprovider",
-  "version": "0.0.1",
+  "name": "@webware/ra-data-prisma-dataprovider",
+  "version": "0.0.4",
   "description": "> TODO: description",
   "author": "Marco Wettstein <maw@panter.ch>",
   "homepage": "",
@@ -40,7 +40,7 @@
     "nexus-plugin-prisma": "^0.35.0"
   },
   "dependencies": {
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "pluralize": "^8.0.0",
     "ra-data-graphql": "3.11.4"
   },

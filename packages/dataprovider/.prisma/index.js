@@ -209,7 +209,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "/Users/jay/Work/Panter/Projekte/ra-data-prisma/packages/dataprovider/.prisma",
+      "value": "/home/patrick/workspace/ra-data-prisma/packages/dataprovider/.prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -247,7 +247,7 @@ const PrismaClient = getPrismaClient(config)
 exports.PrismaClient = PrismaClient
 Object.assign(exports, Prisma)
 
-path.join(__dirname, "libquery_engine-darwin-arm64.dylib.node");
-path.join(process.cwd(), ".prisma/libquery_engine-darwin-arm64.dylib.node")
+path.join(__dirname, "libquery_engine-debian-openssl-1.1.x.so.node");
+path.join(process.cwd(), ".prisma/libquery_engine-debian-openssl-1.1.x.so.node")
 path.join(__dirname, "schema.prisma");
 path.join(process.cwd(), ".prisma/schema.prisma")
