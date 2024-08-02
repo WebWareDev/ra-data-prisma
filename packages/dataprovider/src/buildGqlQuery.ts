@@ -3,6 +3,7 @@ import {
   DocumentNode,
   FieldNode,
   IntrospectionField,
+  OperationTypeNode,
   parse,
   SelectionNode,
   TypeKind,
@@ -335,7 +336,7 @@ export default (
     ) {
       return gqlTypes.document([
         gqlTypes.operationDefinition(
-          "query",
+          OperationTypeNode.QUERY,
           gqlTypes.selectionSet([
             gqlTypes.field(gqlTypes.name(queryType.name!), {
               alias: gqlTypes.name("items"),
@@ -353,7 +354,7 @@ export default (
     if (aorFetchType === DELETE) {
       return gqlTypes.document([
         gqlTypes.operationDefinition(
-          "mutation",
+          OperationTypeNode.MUTATION,
           gqlTypes.selectionSet([
             gqlTypes.field(gqlTypes.name(queryType.name!), {
               alias: gqlTypes.name("data"),
@@ -371,7 +372,9 @@ export default (
 
     return gqlTypes.document([
       gqlTypes.operationDefinition(
-        QUERY_TYPES.includes(aorFetchType) ? "query" : "mutation",
+        QUERY_TYPES.includes(aorFetchType)
+          ? OperationTypeNode.QUERY
+          : OperationTypeNode.MUTATION,
         gqlTypes.selectionSet([
           gqlTypes.field(gqlTypes.name(queryType.name!), {
             alias: gqlTypes.name("data"),
