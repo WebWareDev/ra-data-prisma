@@ -1933,10 +1933,10 @@ queue-tick@^1.0.1:
   resolved "https://registry.yarnpkg.com/queue-tick/-/queue-tick-1.0.1.tgz#f6f07ac82c1fd60f82e098b417a80e52f1f4c142"
   integrity sha512-kJt5qhMxoszgU/62PLP1CJytzd2NKetjSRnyuj31fDd3Rlcz3fzlFdFLD1SItunPwyqEOkca6GbV612BWfaBag==
 
-ra-data-graphql@4.16.11:
-  version "4.16.11"
-  resolved "https://registry.yarnpkg.com/ra-data-graphql/-/ra-data-graphql-4.16.11.tgz#974e87ea178aec547407372c2c32018333c2ac52"
-  integrity sha512-mJ1xWYjdgJu8mKwMRZfU/0+ZdLC3y6QES0hpc2kLuVvB2t3OtecYMB0WwfQnyekt+qZ1Chj6sMLtEvUCAZcpkA==
+ra-data-graphql@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/ra-data-graphql/-/ra-data-graphql-5.1.0.tgz#2c057f5491fdb94bc6abef3a60b370bb927bee72"
+  integrity sha512-JwtOuFoNRCKyRaXIzuY0U4Sb0bQqZBKLjkQN30/HQQi751RCBX17+EeQ+1GvDJH1zQ/gk9Cq/3cGCwRIU2fwLA==
   dependencies:
     "@apollo/client" "^3.3.19"
     lodash "~4.17.5"
