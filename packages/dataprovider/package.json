@@ -42,7 +42,7 @@
   "dependencies": {
     "lodash": "^4.17.15",
     "pluralize": "^8.0.0",
-    "ra-data-graphql": "3.11.4"
+    "ra-data-graphql": "4.16.11"
   },
   "peerDependencies": {
     "@prisma/client": "*",
