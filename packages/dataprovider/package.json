@@ -37,7 +37,8 @@
     "typegraphql-prisma": "^0.25.0",
     "typescript": "^5.2.2",
     "@prisma/client": "^5.5.2",
-    "@morgothulhu/nexus-plugin-prisma": "^5.5.2"
+    "@morgothulhu/nexus-plugin-prisma": "^5.5.2",
+    "yarn": "^1.22.19"
   },
   "dependencies": {
     "lodash": "^4.17.15",
