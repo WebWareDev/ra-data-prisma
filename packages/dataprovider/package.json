@@ -45,7 +45,6 @@
     "pluralize": "^8.0.0",
     "ra-data-graphql": "^5.1.0"
   },
-  "packageManager": "yarn@3.0.2",
   "peerDependencies": {
     "@prisma/client": "*",
     "graphql": ">=14.0.0",
