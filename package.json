@@ -49,11 +49,11 @@
   },
   "scripts": {
     "clean": "lerna run clean --stream --parallel",
-    "build": "lerna run build --stream --parallel",
+    "build": "npx lerna run build --stream --parallel",
     "lint": "eslint './**/*.ts'",
-    "lint:fix": "yarn lint --fix",
+    "lint:fix": "npx yarn lint --fix",
     "test": "jest",
-    "prepare": "lerna bootstrap && husky install && yarn build",
+    "prepare": "npx lerna bootstrap && npx husky install && npx yarn build",
     "semantic-release": "semantic-release"
   },
   "version": "0.0.0-development",
